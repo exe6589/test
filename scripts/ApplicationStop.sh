@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ `docker ps | grep flask-devops | wc -l`  = 1 ]
+if [ `docker ps | grep jupyter.vcloudlab.pro | wc -l`  = 1 ]
 then
-        docker stop flask-devops
-        docker rm  flask-devops
+        docker stop jupyter.vcloudlab.pro
+        docker rm  jupyter.vcloudlab.pro
 fi
